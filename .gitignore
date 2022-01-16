@@ -1,3 +1,4 @@
 tsd_api_lib.egg-info/
 build/
 dist/
+*.pyc
