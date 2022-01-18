@@ -19,6 +19,6 @@ class ContentVerificationReferenceTypeError(ContentVerificationError):
     pass
 
 class ContentVerificationMissingHashError(ContentVerificationError):
-    # raise during incremental processing, if there is no
-    # state for th givn reference, i.e. start() was not called.
+    # raised during incremental processing, if there is no
+    # state for the given reference, i.e. start() was not called.
     pass
